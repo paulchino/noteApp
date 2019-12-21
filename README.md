@@ -1,16 +1,16 @@
-# noteApp
+# Quick Note
 
-Create quick notes using the terminal. Commands open the Atom text editor. 
+Create quick notes with terminal.
 
 Commands:
 ```sh
-$ ne note_name .py
-# Creates note named 'note_name' with a .py extension. 
+$ qn note_name .py
+# Creates note named 'note_name' with a .py extension.
 # If note_name already exists. Opens the file.
 # Extension defaults to .txt
 ```
 
 ```sh
-nfe note_name .py coding
+qn note_name .py coding
 # note_name filed under the directory 'coding'. Create directory if doesn't exists.
 ```
