@@ -4,7 +4,6 @@ import os
 ####
 # Modify as you'd like
 DEFAULT_DIR_NAME = 'notes'
-TEMPLATE_DIR_NAME = 'templates'
 DEFAULT_EDITOR = 'atom'
 ####
 
@@ -39,7 +38,7 @@ def main():
     script_path = os.path.dirname(os.path.realpath(__file__))
     root_path = os.path.abspath(os.path.join(script_path, os.pardir))
     default_note_path = join_str([root_path, DEFAULT_DIR_NAME])
-    template_path = join_str([root_path, TEMPLATE_DIR_NAME])
+    template_path = join_str([root_path, 'templates'])
 
     make_dir_if_not_exists(default_note_path)
 
