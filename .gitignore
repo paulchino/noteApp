@@ -1,2 +1,2 @@
-# Ignore all directories / files except ones listed below
-/Notes/*
+/notes/*
+/templates/*
